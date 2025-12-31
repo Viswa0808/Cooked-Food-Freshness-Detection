@@ -25,32 +25,32 @@ OUTPUT_CSV = os.path.join(DATA_DIR, 'food_data.csv')
 CITY_CLIMATE = {
     'North': {
         'cities': ['Delhi', 'Chandigarh', 'Lucknow', 'Jaipur', 'Srinagar'],
-        'temp_range': (10, 25),  # width 15
+        'temp_range': (5, 45),
         'hum_range': (20, 80)
     },
     'South': {
         'cities': ['Chennai', 'Kochi', 'Hyderabad', 'Bengaluru', 'Pune', 'Madurai'],
-        'temp_range': (24, 34),  # width 10
+        'temp_range': (20, 38),
         'hum_range': (50, 90)
     },
     'West': {
         'cities': ['Mumbai', 'Goa', 'Ahmedabad', 'Surat'],
-        'temp_range': (23, 35),  # width 12
+        'temp_range': (22, 36),
         'hum_range': (50, 90)
     },
     'East': {
         'cities': ['Kolkata', 'Bhubaneswar', 'Guwahati', 'Patna'],
-        'temp_range': (22, 32),  # width 10
+        'temp_range': (18, 35),
         'hum_range': (50, 95)
     },
     'Central': {
         'cities': ['Bhopal', 'Nagpur', 'Indore', 'Raipur'],
-        'temp_range': (20, 32),  # width 12
+        'temp_range': (15, 40),
         'hum_range': (30, 85)
     },
     'NorthEast': {
         'cities': ['Guwahati', 'Imphal', 'Shillong'],
-        'temp_range': (15, 27),  # width 12
+        'temp_range': (10, 32),
         'hum_range': (60, 98)
     }
 }
