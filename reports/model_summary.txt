@@ -1,0 +1,15 @@
+Top 10 model features by importance:
+1. humidity: 0.1668
+2. ambient_temp: 0.1564
+3. time_since_cooking: 0.1269
+4. storage_time: 0.1231
+
+Interpretation:
+Features with higher importance (shown above) are the ones the RandomForest uses most when
+deciding between Fresh/Medium/Spoiled. Expect environmental factors (ambient_temp, humidity),
+time-related factors (time_since_cooking, storage_time), and strong categorical indicators
+(e.g., storage_condition=refrigerated, smell descriptors or wet moisture) to dominate.
+
+Suggestions:
+- If temperature/humidity features are top-ranked, consider improving measurement precision
+- If categorical placeholders dominate, consider richer numeric interactions (temp*humidity)
